@@ -1,0 +1,84 @@
+{
+    "AS_FlexContainer_5a833019d34e45d7ab52b17d8049ccc2": {
+        "id": "AS_FlexContainer_5a833019d34e45d7ab52b17d8049ccc2",
+        "type": "ACTION_SEQUENCE",
+        "name": "flxHamburgerBackOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY____b397d219ead5493db8c6a59368ddf0ce",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmDashboardKA",
+            "widgetId": "flxHamburgerbackKA",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "8b4c59e117b94ebe8b9523cb6b2517c9",
+            "widgetKUID": "1a025f002ee44c598876ce6679846bd6",
+            "isSkinProperty": false,
+            "forkedPlatform": "all",
+            "callbackType": null,
+            "widgetPath": "frmDashboardKA.flxHamburgerbackKA"
+        }, {
+            "id": "___ide_onClick_5bf460e1015b4d399795c5ed6ddcad76",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "frmDashboardKA",
+            "widgetId": "flxHeaderKA",
+            "itemKUID": "8b4c59e117b94ebe8b9523cb6b2517c9",
+            "widgetKUID": "ac0900f53e25448a88ac39822361d418",
+            "animationObject": {
+                "left": "0%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "250"
+            },
+            "start": "Immediately",
+            "parentAnimation": "MOVE_ACTION____35b7c1c81f30474b847c03292320f4fb",
+            "animationId": "MOVE_ACTION____ca2c701ef8f84304a0ae1543cd839fec",
+            "displayAnimationId": "MOVE_ACTION____ca2c701ef8f84304a0ae1543cd839fec",
+            "forkedPlatform": "all",
+            "callbackType": null,
+            "widgetPath": "frmDashboardKA.flxHeaderKA"
+        }, {
+            "id": "SCALE_ACTION____f0e31b3a233343499c40f0410e98246b",
+            "type": "SCALE_ACTION",
+            "itemType": "FORM",
+            "itemId": "frmDashboardKA",
+            "widgetId": "flxHamburgerMenuKA",
+            "itemKUID": "8b4c59e117b94ebe8b9523cb6b2517c9",
+            "widgetKUID": "251698ef1c5040a89a270c25d93b1324",
+            "animationObject": {
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                },
+                "width": "0%"
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "250"
+            },
+            "start": "Immediately",
+            "parentAnimation": "MOVE_ACTION____ca2c701ef8f84304a0ae1543cd839fec",
+            "animationId": "SCALE_ACTION____f0e31b3a233343499c40f0410e98246b",
+            "displayAnimationId": "SCALE_ACTION____f0e31b3a233343499c40f0410e98246b",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "frmDashboardKA.flxHamburgerMenuKA"
+        }]
+    }
+}

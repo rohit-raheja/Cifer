@@ -1,0 +1,60 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sbebb8774ec2451f9269e6ddf3f27ead",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "15%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "flxHamburgerLine1KA",
+        "flxHamburgerLine2KA",
+        "flxHamburgerLine3KA"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxHamburgerKA",
+    "ide_onClick": "AS_FlexContainer_246243f065f04b1b87c8b72cd58706f2",
+    "info": null,
+    "isvisible": true,
+    "kuid": "fdb9b1bb133f494dbf0f120f2b9bbb0b",
+    "layouttype": 4,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxHeaderKA",
+    "pf": "frmDashboardKA",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}
